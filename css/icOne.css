@@ -1,3 +1,72 @@
-body, html {
-  font-size: 12px;
+body {
+  background-color: #EFEFEF;
+  margin: 0;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+}
+
+header {
+  background-color: #606060;
+}
+
+#banner-pic {
+  width: 100%;
+  margin-bottom: -15px;
+}
+
+#banner {
+  width: 100%;
+  height: 100px;
+
+  background-color: #606060;
+}
+
+.std-paragraph {
+  color: #4B4B4B;
+  font-size: 2rem;
+
+  margin-top: 50px;
+  margin-right: 100px;
+  margin-left: 100px;
+}
+
+nav ul {
+  list-style: none;
+  padding: none;
+  text-align: left;
+  padding-top: 50px;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav ul li > a {
+  color: white;
+  font-size: 2.5rem;
+  font-style: normal;
+  text-decoration: none;
+}
+
+footer {
+  align-content: center;
+}
+
+footer p {
+  color: #4B4B4B;
+  font-size: 2rem;
+  float: left;
+  margin-left: 20px;
+}
+
+#ipsum {
+  color: #4B4B4B;
+  font-size: 2rem;
+  float: right;
+  margin-top: 20px;
+  margin-right: 20px;
 }
