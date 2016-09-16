@@ -19,14 +19,32 @@ header {
 
 #banner {
   width: 100%;
-  height: 100px;
+  height: 150px;
 
   background-color: #606060;
+  //padding-left: 30px;
+  margin-bottom: 100px;
+}
+
+#paragraph-container {
+  padding-top: 100 px;
+  margin-bottom: 100px;
+}
+
+#paragraph-container-mini {
+  margin-left: 70px;
+  margin-right: 70px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #C1C1C1;
 }
 
 .std-paragraph {
   color: #4B4B4B;
   font-size: 2rem;
+  text-align: justify;
 
   margin-top: 50px;
   margin-right: 100px;
@@ -37,34 +55,44 @@ nav ul {
   list-style: none;
   padding: none;
   text-align: left;
-  padding-top: 50px;
+  padding-top: 70px;
 }
 
 nav ul li {
   display: inline-block;
-  margin-right: 20px;
+  margin-right: 40px;
 }
 
 nav ul li > a {
   color: white;
-  font-size: 2.5rem;
+  font-size: 4rem;
   font-style: normal;
   text-decoration: none;
+}
+
+form {
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-bottom: 50px;
+}
+
+form fieldset label {
+  font-size: 1.5rem;
+}
+
+#offers {
+  font-size: .5rem;
+}
+
+a:hover {
+  color: black;
 }
 
 footer {
   align-content: center;
 }
 
-footer p {
-  color: #4B4B4B;
-  font-size: 2rem;
-  float: left;
-  margin-left: 20px;
-}
-
 #ipsum {
-  color: #4B4B4B;
   font-size: 2rem;
   float: right;
   margin-top: 20px;
